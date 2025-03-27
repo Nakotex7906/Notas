@@ -8,13 +8,13 @@ public class SalidaDatosFuncional {
     public static void mostrarResultados(double[] notas, int[] resultadosFuncional) {
         //Formatear los numeros a un decimal
         DecimalFormat df = new DecimalFormat("#.0");
-        String notasFormarteadas = Arrays.stream(notas)
+        String notasAproximadas = Arrays.stream(notas)
                 .mapToObj(df::format)
                 .collect(Collectors.joining(" / "));
 
         // Mostrar notas generadas
         System.out.println(" Notas generadas:");
-        System.out.println("[" + notasFormarteadas + "]");
+        System.out.println("[" + notasAproximadas + "]");
         // Mostrar resultados enfoque funcional
         System.out.println("\n Enfoque Funcional:");
         System.out.println("Notas mayores a 4.0: " + resultadosFuncional[0]);

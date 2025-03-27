@@ -8,10 +8,9 @@ public class ProcesoImperativo {
         for (double nota : notas) {
             if (nota > 4.0) {
                 mayoresA4++;
-
-            } else if (nota < 3.6) {
+            } else if (nota < 3.6 ) {
                 menoresA36++;
-            } else if (nota >= 3.6 && nota <= 4.0) {
+            } else   {
                 entre36y4++;
             }
         }

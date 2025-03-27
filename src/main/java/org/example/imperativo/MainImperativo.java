@@ -1,8 +1,5 @@
 package org.example.imperativo;
 
-
-
-
 public class MainImperativo {
 
     public static void main(String[] args) {
@@ -13,7 +10,6 @@ public class MainImperativo {
 
     //Procesar enfoque imperativo
         int[] resultadosImperativo = ProcesoImperativo.analizarNotasImperativo(notas);
-
         //Mostrar resultados
         SalidaDatosImperativo.mostrarResultados(notas,resultadosImperativo);
     }
