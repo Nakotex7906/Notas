@@ -1,3 +1,6 @@
+
+Grupo: Benjamin beroiza, Alonso romero, Ignacio essus
+
 // Generamos un conjunto de notas aleatorias y fueron analizadas usando dos enfoques:
 
 - Imperativo: Utilizando estructuras tradicionales como bucles y condicionales.
